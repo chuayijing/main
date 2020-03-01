@@ -184,9 +184,6 @@ This view will contain the upcoming tasks and statistics.
 This will show you all your claimable hours up till now in the same format as that
 used in the TSS claim files.
 
-TA Tracker data are saved in the hard disk automatically after any command that changes the data. +
-There is no need to save manually.
-
 === Automatic Backups
 
 TATracker data is automatically saved in the hard disk as backup files after any
