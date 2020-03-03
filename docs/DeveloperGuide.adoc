@@ -339,9 +339,9 @@ Priorities: High (must have) - `* * \*`, Medium (nice to have) - `* \*`, Low (un
 
 |`* * *` |TA |mark a session as done |automatically get filled in my TSS claim section.
 
-|`* * ` |TA |give students ratings |keep a track of student participation in class
+|`* *` |TA |give students ratings |keep a track of student participation in class
 
-|`* * ` |TA |delete tasks and events |remove cancelled tasks and events from my session tracker
+|`* *` |TA |delete tasks and events |remove cancelled tasks and events from my session tracker
 
 |`* * *` |TA |schedule consultation sessions with my students |keep track of claimable hours spent in consultations
 
@@ -351,9 +351,9 @@ Priorities: High (must have) - `* * \*`, Medium (nice to have) - `* \*`, Low (un
 
 |`* *` |TA |be able to get tasks on a particular date |
 
-|`* * ` |TA |filter by a module |see events relating to a particular module clearly
+|`* *` |TA |filter by a module |see events relating to a particular module clearly
 
-|`* ` |TA |state that a task is recurring |prevent the need to put a recurring task in my schedule each week
+|`*` |TA |state that a task is recurring |prevent the need to put a recurring task in my schedule each week
 
 |`* * *` |TA |see all my claimable hours in the TSS format |type my claims easily at the end of the semester
 
@@ -365,7 +365,7 @@ Priorities: High (must have) - `* * \*`, Medium (nice to have) - `* \*`, Low (un
 
 |`* * *` |TA |add students to a particular module |
 
-|`* * ` |TA |store my students' email ids |retrieve their email ids when I need to contact them
+|`* *` |TA |store my students' email ids |retrieve their email ids when I need to contact them
 
 |`* * *` |TA |add multiple modules |keep track of the different modules I am a TA for
 
