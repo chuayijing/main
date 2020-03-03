@@ -36,10 +36,10 @@ e.g. typing *`help`* and pressing kbd:[Enter] will open the help window.
 
 A brief overview of the layout of the TATracker.
 
-====
+[[Features]]
+==Features
 
 === Dashboard
-
 Home page.
 
 === Student View
@@ -57,6 +57,7 @@ This view will contain the upcoming tasks and statistics.
 
 This will show you all your claimable hours up till now in the same format as that
 used in the TSS claim files.
+
 
 === Automatic Backups
 
@@ -102,6 +103,101 @@ automatically loaded into the program when it is opened.
 ** lab - Lab
 * START, END - a time parameter, in the following format: HH:mm
 * DATE - a date parameter, in the following format: dd-MM-yyyy
+
+=== Student Management
+
+==== Enrolling a student in a class : `enroll`
+
+Enrolls a student in a class in the program. +
+
+Format: `enroll MATRIC_NUMBER CLASS_CODE MOD_CODE'
+
+****
+* Enrolls the person with the given matriculation number in the class given by the class code of the module given by the module code.
+****
+
+Examples:
+
+* `enroll A01234567J G06 CS2101` +
+Enrolls the student with the matriculation number A01234567J in tutorial G06 of module CS2101.
+
+==== Removing a student from a class : `kick`
+
+Removes a student from a class in the program. +
+Format: `kick MATRIC_NUMBER CLASS_CODE MOD_CODE`
+
+****
+* Removes the person with the given matriculation number from the class given by the class code of the module given by the module code.
+
+Examples:
+
+* `kick A01234567J G06 CS2101` +
+Removes the student with the matriculation number A01234567J from tutorial G06 of module CS2101.
+
+=== Session Management
+
+==== Labelling a session as completed : `done`
+
+Labels a session as done. If the session is claimable, it will appear as
+a new claim in the TSS view.+
+Format: `done SESSION_UID'
+
+****
+* Marks the session with the given unique session identifier as done.
+****
+
+Example:
+
+* `done 25` +
+Marks the session with the unique session id of 25 as done.
+
+==== Labeling a session as a makeup : `makeup`
+
+Labels a session as a makeup session. If the session is claimable, it will appear
+ as a new claim in the TSS view.+
+Format: `makeup SESSION_UID`
+
+****
+* Marks the session with the given unique session identifier as a makeup.
+****
+
+Examples:
+
+* `makeup 25` +
+Marks the session with the unique session id of 25 as a makeup.
+
+=== Settings
+
+==== Adjusting the settings : `set`
+
+Adjusts the chosen settings. +
+Format: `set SETTING`
+
+Here are the things that you can set:
+
+* rate: * Adjusts the hourly rate. +
+Sets the hourly rate for the total income and claim computation.
+
+Format: `set rate AMOUNT`
+* AMOUNT is the amount you want to change the hourly rate to.
+* To specify in exact dollars, you can write it as just the number (example: 20).
+* To specify in exact dollars and cents, write it as a decimal up to 2 decimal places (example: 20.05).
+
+Examples:
+
+* `set rate 25` +
+Sets the current hourly rate to 25$.
+
+*default:* Adjusts the default layout +
+Change the default view shown when the GUI is first opened.
+
+Format: `set default PAGE_NAME`
+
+Examples:
+
+* `set default sessions` +
+Sets the default view to be the list of sessions every time you open the GUI.
+
 
 == FAQ
 
