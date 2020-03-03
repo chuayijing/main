@@ -36,6 +36,36 @@ e.g. typing *`help`* and pressing kbd:[Enter] will open the help window.
 
 A brief overview of the layout of the TATracker.
 
+[[Features]]
+==Features
+
+=== Dashboard
+Home page.
+
+=== Student View
+
+This view will show you the list of all your students. It will show you information such
+as student name, matriculation number, attendance, ratings you give the student
+(such as for participation), any notes you have on the student and contact details
+(email and telegram id).
+
+=== Session View
+
+This view will contain the upcoming tasks and statistics.
+
+=== TSS View
+
+This will show you all your claimable hours up till now in the same format as that
+used in the TSS claim files.
+
+
+=== Automatic Backups
+
+TATracker data is automatically saved in the hard disk as backup files after any
+command that changes the data. These automatic backups will preserve all data
+and settings within the program at the time of use. These backups will also be
+automatically loaded into the program when it is opened.
+
 [[Usage]]
 == Usage
 
@@ -73,25 +103,6 @@ A brief overview of the layout of the TATracker.
 ** lab - Lab
 * START, END - a time parameter, in the following format: HH:mm
 * DATE - a date parameter, in the following format: dd-MM-yyyy
-
-=== Dashboard
-Home page.
-
-=== Student View
-
-This view will show you the list of all your students. It will show you information such
-as student name, matriculation number, attendance, ratings you give the student
-(such as for participation), any notes you have on the student and contact details
-(email and telegram id).
-
-=== Session View
-
-This view will contain the upcoming tasks and statistics.
-
-=== TSS View
-
-This will show you all your claimable hours up till now in the same format as that
-used in the TSS claim files.
 
 === Student Management
 
@@ -186,14 +197,6 @@ Examples:
 
 * `set default sessions` +
 Sets the default view to be the list of sessions every time you open the GUI.
-
-
-=== Automatic Backups
-
-TATracker data is automatically saved in the hard disk as backup files after any
-command that changes the data. These automatic backups will preserve all data
-and settings within the program at the time of use. These backups will also be
-automatically loaded into the program when it is opened.
 
 
 == FAQ
